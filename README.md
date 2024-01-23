@@ -9,7 +9,7 @@ Pygame screen and window caption are set.
 A 3x3 NumPy array (board) is used to represent the state of the Tic Tac Toe board. It is initially filled with zeros.
 
 ### Drawing Functions:
-draw_figures(): Draws circles and crosses on the board based on the current state.
+draw_figures(): Draws circles and crosses on the board based on the current state. /n
 draw_lines(): Draws horizontal and vertical lines to create the Tic Tac Toe grid.
 
 ### Game Logic Functions:
