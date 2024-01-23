@@ -10,12 +10,16 @@ A 3x3 NumPy array (board) is used to represent the state of the Tic Tac Toe boar
 
 ### Drawing Functions:
 draw_figures(): Draws circles and crosses on the board based on the current state. 
+
 draw_lines(): Draws horizontal and vertical lines to create the Tic Tac Toe grid.
 
 ### Game Logic Functions:
 mark_square(row, col, player): Marks a square on the board with the current player's symbol (1 for circle, 2 for cross).
+
 available_square(row, col): Checks if a square is available (not marked by any player).
+
 is_board_full(): Checks if the entire board is filled.
+
 check_win(player): Checks for a win condition for the given player (horizontal, vertical, and diagonal).
 
 ### Drawing Winning Lines:
